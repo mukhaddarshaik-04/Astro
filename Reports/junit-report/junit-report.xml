@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Astro_website_URL_validation" timestamp="2020-08-23T21:58:30" time="81.364" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Astro website URL validation"/>
+      <property name="capabilities" value="firefox.79_0.windows"/>
+      <property name="featureFile" value=".\test\features\astro-first.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-firefox.79_0.windows.Astro_website_URL_validation" name="Astro_website_URL_validation.User_navigates_to_the_webpage_through_URLs" time="33.43">
+      <system-out>
+        <![CDATA[
+✅ Given I open page with the url astro-first✅ Then I can see the astro-first webpage with content
+
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-firefox.79_0.windows.Astro_website_URL_validation" name="Astro_website_URL_validation.User_navigates_through_URL" time="7.926">
+      <system-out>
+        <![CDATA[
+✅ Given I open page with the url astro-best✅ Then I can see the astro-best webpage with content
+
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-firefox.79_0.windows.Astro_website_URL_validation" name="Astro_website_URL_validation.User_navigates_through_More_button" time="39.977">
+      <system-out>
+        <![CDATA[
+✅ Given I open page with the url astro-best✅ Then I click on More button till the last page
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

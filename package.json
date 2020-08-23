@@ -1,0 +1,28 @@
+{
+  "name": "wdio-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "MK",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/register": "^7.10.5",
+    "@wdio/cli": "^6.4.0",
+    "@wdio/cucumber-framework": "^6.4.0",
+    "@wdio/junit-reporter": "^6.4.0",
+    "@wdio/local-runner": "^6.4.0",
+    "@wdio/selenium-standalone-service": "^6.4.0",
+    "@wdio/spec-reporter": "^6.4.0",
+    "@wdio/sync": "^6.4.0",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "wdio-cucumberjs-json-reporter": "^2.0.2",
+    "webdriverio": "^6.4.0"
+  },
+  "dependencies": {
+    "wdio-junit-to-html": "^3.1.2"
+  }
+}
